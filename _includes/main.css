@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('/font/Inconsolata-webfont.eot');
+    src: url('/font/Inconsolata-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/font/Inconsolata-webfont.woff') format('woff'),
+    url('/font/Inconsolata-webfont.ttf') format('truetype'),
+    url('/font/Inconsolata-webfont.svg#InconsolataMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     padding:0px;
     margin:0px;
@@ -23,14 +33,13 @@ time, mark, audio, video {
 }
 body {
     padding:20px;
-    font:14px/1.5 "Lucida Sans Typewriter", "Lucida Console", Monaco, monospace;
+    font:14px/1.5 "Inconsolata", "Lucida Sans Typewriter", "Lucida Console", Monaco, monospace;
     color:#777;
     font-weight:300;
     background:#fefefe;
 }
 h1, h2 {
     color:#444;
-    margin:0 0 20px;
     line-height:1.1;
 }
 h1 {
@@ -147,6 +156,9 @@ section {
 .post-content {
     padding:10px 0 10px 0;
 }
+.post-content h1, .post-content h2 {
+    margin: 0 0 20px;
+}
 .post-content ul{
     list-style-type:circle;
     padding:0px 10px;
@@ -175,5 +187,4 @@ section {
 .post-content p a, #about a {
     background: yellow;
 }
-
 {% include pygment_trac.css %}
