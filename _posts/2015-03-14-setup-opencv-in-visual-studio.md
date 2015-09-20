@@ -1,7 +1,7 @@
 ---
 layout: post
 author: TJ Maynes
-title: Setting up C++ OpenCV in Visual Studio
+title: Setup C++ OpenCV in Visual Studio
 date: 2015-03-14 00:00:00
 published: true
 ---
