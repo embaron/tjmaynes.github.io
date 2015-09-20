@@ -1,7 +1,7 @@
 ---
 layout: post
 author: TJ Maynes
-title: VHS Covers
+title: vhs covers
 date: 2013-02-22 00:00:00
 published: true
 ---

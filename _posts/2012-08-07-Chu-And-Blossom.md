@@ -1,7 +1,7 @@
 ---
 layout: post
 author: TJ Maynes
-title: Chu and Blossom
+title: chu and blossom
 date: 2012-08-07 00:00:00
 published: true
 ---
