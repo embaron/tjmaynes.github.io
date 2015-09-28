@@ -1,6 +1,6 @@
 highlighter: pygments
 markdown: kramdown
-permalink: /:title/
+permalink: /blog/:title/
 url: http://www.tjmaynes.com
 author: TJ Maynes
 port: 4000

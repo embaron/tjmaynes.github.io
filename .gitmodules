@@ -1,6 +1,10 @@
-[submodule "slides/osl"]
-	path = slides/osl
-	url = https://www.github.com/tjmaynes/osl.git
-[submodule "slides/learn_git"]
-	path = slides/learn_git
-	url = https://www.github.com/tjmaynes/learn_git.git
+[submodule "projects/osl"]
+	path = projects/osl
+	url = git@github.com:tjmaynes/osl.git
+[submodule "projects/stockjs"]
+	path = projects/stockjs
+	url = git@github.com:tjmaynes/stockjs.git
+[submodule "projects/canny-bot"]
+	path = projects/canny-bot
+	url = git@github.com:tjmaynes/cannybot.git
+	branch = gh-pages
