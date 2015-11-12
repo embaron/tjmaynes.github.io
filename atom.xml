@@ -9,7 +9,7 @@
   <id>http://www.tjmaynes.com/</id>
   <author>
     <name>TJ Maynes</name>
-    <email>tjmaynes@outlook.com</email>
+    <email>tjmaynes@gmail.com</email>
   </author>
   {% for post in site.posts %}
   <entry>
