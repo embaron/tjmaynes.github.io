@@ -8,18 +8,7 @@
 		font-weight: normal;
 		font-style: normal;
 }
-@font-face {
-  font-family: 'Mono Social Icons Font';
-  src: url('/font/MonoSocialIconsFont-1.10.eot');
-  src: url('/font/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
-  url('/font/MonoSocialIconsFont-1.10.woff') format('woff'),
-  url('/font/MonoSocialIconsFont-1.10.ttf') format('truetype'),
-  url('/font/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-  src: url('/font/MonoSocialIconsFont-1.10.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-*{
+{
 		padding:0px;
 		margin:0px;
 }
@@ -66,7 +55,7 @@ ol, ul{
 p, table, pre, dl {
 		margin:0 0 10px 0;
 }
-nav ul li {
+.menu ul li {
 		display: inline;
 }
 a {
@@ -126,7 +115,7 @@ hr {
 section {
 		margin:0 0 15px;
 }
-#about a {
+.projects a, #about a {
 		background: yellow;
 }
 #about p{
@@ -156,15 +145,15 @@ section {
 #posts ol, #posts ul, #projects ol, #projects ul{
 		margin:0;
 }
+.projects ul {
+		list-style-type:none;
+}
 #posts ul li, #projects ul li{
 		display: block;
 }
 .author{
 		font-style: italic;
 		font-size: 10pt;
-}
-.post{
-		padding:0 5px 0px 5px;
 }
 .post-content {
 		padding:10px 0 10px 0;
@@ -178,12 +167,11 @@ section {
 }
 .post-content ol{
 		list-style-type:decimal;
-		padding:0px;
+		padding:0px 10px;
 }
 .post-content li{
 		padding: 5px 0px;
-		margin-left: 40px;
-		margin-right: 40px;
+		margin-left: 5px;
 }
 .post-content p{
 		line-height: 1.5;
@@ -207,7 +195,6 @@ section {
   font-size: 9pt;
   width: 1em;
 }
-
 footer {
 	margin-top: 20px;
 }
