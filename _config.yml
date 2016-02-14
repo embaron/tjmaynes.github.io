@@ -1,4 +1,4 @@
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 permalink: /blog/:title/
 url: http://www.tjmaynes.com
