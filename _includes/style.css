@@ -138,8 +138,8 @@ section {
 }
 #about img{
   margin-right:15px;
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   border-radius: 80px;
   -webkitbkit-border-radius: 80px;
   -moz-border-radius: 80px;
@@ -147,7 +147,7 @@ section {
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-smallhadow: 0 0 8px rgba(0, 0, 0, .8);
 }
-#posts, .post, #pagination, .projects, .menu, footer {
+#posts, .post, #pagination, #about, .menu, footer {
   background: #fbfbfb;
   box-shadow: 0 0 8px #aaa; 
   padding:10px 10px 10px 10px;
