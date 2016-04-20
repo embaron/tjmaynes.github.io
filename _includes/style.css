@@ -49,11 +49,14 @@ h2 {
   font-size: 18px;
   text-decoration:underline;
 }
-ol, ul{
+.post ol, .post ul{
   margin:0 0 10px;
 }
 p, table, pre, dl {
   margin:0 0 10px 0;
+}
+.menu {
+  margin-bottom: 15px;
 }
 .menu ul li {
   display: inline;
@@ -144,10 +147,10 @@ section {
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-smallhadow: 0 0 8px rgba(0, 0, 0, .8);
 }
-.post, #pagination {
+.post, #pagination, .projects, .menu, footer {
   background: #fbfbfb;
-  padding:10px;
   box-shadow: 0 0 8px #aaa; 
+  padding:10px 10px 10px 10px;
 }
 #posts ol, #posts ul, #projects ol, #projects ul{
   margin:0;
@@ -204,10 +207,11 @@ section {
   background: yellow;
 }
 footer {
-  margin-top: 20px;
+  margin-top: 15px;
+  text-align: center;
 }
 #pagination {
-  margin: 0 auto;
+  margin: 10pt auto;
   text-align: center;
 }
 {% include pygment_trac.css %}
