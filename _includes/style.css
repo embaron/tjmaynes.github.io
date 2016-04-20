@@ -36,7 +36,7 @@ body {
   font:16px/1.5 "Inconsolata", "Lucida Sans Typewriter", "Lucida Console", Monaco, monospace;
   color:#777;
   font-weight:300;
-  background:#CCFFCC;
+  background:#DFFFA5;
 }
 h1, h2 {
   color:#444;
@@ -147,7 +147,7 @@ section {
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-smallhadow: 0 0 8px rgba(0, 0, 0, .8);
 }
-.post, #pagination, .projects, .menu, footer {
+#posts, .post, #pagination, .projects, .menu, footer {
   background: #fbfbfb;
   box-shadow: 0 0 8px #aaa; 
   padding:10px 10px 10px 10px;
@@ -213,5 +213,8 @@ footer {
 #pagination {
   margin: 10pt auto;
   text-align: center;
+}
+#posts {
+  margin-bottom: 15px;
 }
 {% include pygment_trac.css %}
