@@ -2,18 +2,19 @@
 ---
 <!doctype html>
 <html>
-		{% include head.html %}
-		<body>
-				<div class="wrapper">
-						<div class="content">
-								{% include header.html %}
-								<hr>
-								<article>
-								{% include blog.html %}
-								</article>
-								<hr>
-								{% include footer.html %}
-						</div>
-				</div>
-		</body>
+  {% include head.html %}
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        {% include header.html %}
+        <hr>
+        <article>
+          {% include blogs.html %}
+        </article>
+        {% include nav-pagination.html %}
+        <hr>
+        {% include footer.html %}
+      </div>
+    </div>
+  </body>
 </html>
