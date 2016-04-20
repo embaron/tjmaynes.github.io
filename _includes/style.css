@@ -126,6 +126,9 @@ section {
   font-weight: 800;
   padding: 0px 0px 5px 0px;
 }
+.post-header-info h1 {
+  text-decoration: underline;
+}
 .wrapper {
   max-width:630px;
   margin:0 auto;
@@ -140,6 +143,11 @@ section {
   box-shadow: 0 0 8px rgba(0,img 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-smallhadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+.post, #pagination {
+  background: #fbfbfb;
+  padding:10px;
+  box-shadow: 0 0 8px #aaa; 
 }
 #posts ol, #posts ul, #projects ol, #projects ul{
   margin:0;
@@ -188,17 +196,18 @@ section {
 .post-content p a, #about a {
   background: yellow;
 }
-.social{
+.social {
   float: right;
   text-align: center;
-  font-size: 9pt;
+  font-size: 12pt;
   width: 1em;
+  background: yellow;
 }
 footer {
   margin-top: 20px;
 }
 #pagination {
   margin: 0 auto;
-  width: 140px;
+  text-align: center;
 }
 {% include pygment_trac.css %}
